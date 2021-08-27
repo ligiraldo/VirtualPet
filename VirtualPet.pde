@@ -1,12 +1,11 @@
 import processing.serial.*;
 float eyeColor = 0;
-int x;
 String text = "ANGERY";
 void setup(){
-  background(0,0,0);
   size(400,400);
 }
 void draw(){
+  background(0,0,0);
   fill(0,0,0,50);
   rect(0,0,500,500);
   noStroke();
@@ -31,6 +30,4 @@ void draw(){
   fill(50,50,50);
   rect(260,200,10,100);
   fill(150,75,0);
-  System.out.println(x);
-  rect(x+200,200,100,10);
 }

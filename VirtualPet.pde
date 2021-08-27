@@ -29,5 +29,4 @@ void draw(){
 //  text("I have been gone for too long",200, 350);
   fill(50,50,50);
   rect(260,200,10,100);
-  fill(150,75,0);
 }

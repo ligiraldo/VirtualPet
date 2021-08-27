@@ -1,5 +1,4 @@
 
-int eyeColor = 0;
 //String text = "ANGERY";
 void setup(){
   size(400,400);
@@ -16,7 +15,7 @@ void draw(){
   fill(255,255,255);
   ellipse(168,150,30,30);
   ellipse(210,150,30,30);
-  fill(eyeColor,0,0);
+  fill(random(0,255),0,0);
   ellipse(168,150,10,10);
   ellipse(210,150,10,10);
   fill(50,50,50);

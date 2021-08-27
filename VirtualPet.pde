@@ -1,5 +1,5 @@
-import processing.serial.*;
-float eyeColor = 0;
+
+int eyeColor = 0;
 String text = "ANGERY";
 void setup(){
   size(400,400);

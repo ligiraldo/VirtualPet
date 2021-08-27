@@ -1,6 +1,6 @@
 
 int eyeColor = 0;
-String text = "ANGERY";
+//String text = "ANGERY";
 void setup(){
   size(400,400);
 }
@@ -11,7 +11,7 @@ void draw(){
   noStroke();
   fill(112,41,99);
   ellipse(200,200,100,180);
-  textAlign(CENTER);
+//  textAlign(CENTER);
   fill(255,0,0);
   fill(255,255,255);
   ellipse(168,150,30,30);
@@ -24,9 +24,9 @@ void draw(){
   rect(150,100,100,20);
   fill(255,0,0);
   textSize(30);
-  text("stare into my soul",200, 50);
+//  text("stare into my soul",200, 50);
   textSize(20);
-  text("I have been gone for too long",200, 350);
+//  text("I have been gone for too long",200, 350);
   fill(50,50,50);
   rect(260,200,10,100);
   fill(150,75,0);

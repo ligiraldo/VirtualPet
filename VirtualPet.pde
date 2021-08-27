@@ -2,10 +2,11 @@
 //String text = "ANGERY";
 float eyeColor = random(0,255);
 void setup(){
+  background(0,0,0);
   size(400,400);
 }
 void draw(){
-  background(0,0,0);
+
   fill(0,0,0,50);
   rect(0,0,500,500);
   noStroke();
